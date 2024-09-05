@@ -57,7 +57,7 @@ dpi_timings=720 0 20 20 40 720 0 15 15 15 0 0 0 60 0 36720000 4
 
 ### 7. **Initial Configuration of DietPi**
 1. After DietPi boots up, you will be prompted to set up basic settings such as language and keyboard layout.
-2. Connect the HackberryPi to the internet (either via Wi-Fi or using a USB-to-Ethernet adapter).
+2. Connect the HackberryPi to the internet (Use the `dietpi-config` menu to connect Wi-Fi (either via Wi-Fi or using a USB-to-Ethernet adapter).
 3. Perform the initial update of DietPi if prompted.
 
 ### 8. **Install Software on DietPi**

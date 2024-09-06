@@ -85,6 +85,10 @@ I only tested Xfce!
 ```bash
 sudo apt install dbus-x11
 ```
+Start the GUI
+```bash
+startx
+```
 
 ### Change font size in terminal
 ```bash

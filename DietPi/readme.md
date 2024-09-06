@@ -84,3 +84,8 @@ A package must be installed for the GUI.
 ```bash
 sudo apt install dbus-x11
 ```
+
+### Change font size in terminal
+```bash
+sudo dpkg-reconfigure console-setup
+```

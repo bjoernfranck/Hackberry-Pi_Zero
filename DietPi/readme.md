@@ -79,8 +79,9 @@ vcgencmd display_power 0
 vcgencmd display_power 1
 ```
 ### For GUI (Xfce)
-You can xfce install in the `dietpi-sowftware` menu (see point 8.)
+You can xfce install in the `dietpi-sowftware` menu (see 8.)
 A package must be installed for the GUI.
+I only tested Xfce!
 ```bash
 sudo apt install dbus-x11
 ```

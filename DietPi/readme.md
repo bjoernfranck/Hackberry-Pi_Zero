@@ -37,7 +37,6 @@
 You can find the display-driver her: [Display-driver](https://github.com/ZitaoTech/Hackberry-Pi_Zero/blob/main/Screen/hyperpixel4.dtbo))
 3. Add the following lines at the end in `/boot/config.txt` in your microSD
 ```bash
-arm_64bit=1
 dtoverlay=hyperpixel4
 overscan_left=0
 overscan_right=0 

@@ -77,7 +77,7 @@ dietpi-software
 ```
 
 ### 9. **All Done!**
-DietPi is now running on your Raspberry Pi Zero 2 W!
+DietPi is now running on your Hackberry Zero!
 
 ## **Additional setup**
 ### HDMI-Port

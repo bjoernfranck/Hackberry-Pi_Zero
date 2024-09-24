@@ -33,9 +33,18 @@
 4. Click **Start** to write the image to the microSD card. Wait until the process is completed.
 
 ### 6. **Set Up the Raspberry Pi**
+
+**Important**
+
+Some users have told me that it doesn't work with the display driver and the config.txt (further down). The display fades when booting up.
+Here is the solution: [Display-driver and config.txt](https://github.com/bjoernfranck/Hackberry-Pi_Zero/blob/main/DietPi/config-hyperpixel.zip))
+Simply use the two files and it works. There are two files in the ZIP. (hyperpixel4.dto and config.txt)
+Copy this two files on the mircoSD hyperpixel4.dtbo to `/boot/overlays/` and config.txt to SD root folder. 
+Than go to Step 3.
+
 1. Once the writing is done, copy the display-driver into this folder `/boot/overlays` to the microSD.
-You can find the display-driver her: [Display-driver](https://github.com/ZitaoTech/Hackberry-Pi_Zero/blob/main/Screen/hyperpixel4.dtbo))
-3. Add the following lines at the end in `/boot/config.txt` in your microSD
+You can find the display-driver here: [Display-driver](https://github.com/ZitaoTech/Hackberry-Pi_Zero/blob/main/Screen/hyperpixel4.dtbo))
+2. Add the following lines at the end in `/boot/config.txt` in your microSD
 ```bash
 dtoverlay=hyperpixel4
 overscan_left=0
@@ -50,9 +59,9 @@ dpi_mode=87
 dpi_output_format=0x5f026
 dpi_timings=720 0 20 20 40 720 0 15 15 15 0 0 0 60 0 36720000 4
 ```
-4. Than, safely remove the microSD card from your computer and insert it into the HackberryPi.
-5. Connect the HackberryPi to power, and optionally to a keyboard / mouse.
-6. The HackberryPi should now boot from the SD card and start DietPi.
+3. Than, safely remove the microSD card from your computer and insert it into the HackberryPi.
+4. Connect the HackberryPi to power, and optionally to a keyboard / mouse.
+5. The HackberryPi should now boot from the SD card and start DietPi.
 
 ### 7. **Initial Configuration of DietPi**
 1. After DietPi boots up, you will be prompted to set up basic settings such as language and keyboard layout.

@@ -1,5 +1,5 @@
 # HackberryPi Zero 2W Linux installation instcructions
 
-**DietPi - WIP**
+**Install DietPi**
 
 **Case Disassembley**
